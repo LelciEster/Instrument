@@ -45,7 +45,7 @@
 	}
 </script>
 
-<svelte:head><title>Liuteria Shkodra · Violino N°1 — 3D Konfigurator</title></svelte:head>
+<svelte:head><title>Liuteria Shkodra · Violino N°1 · 3D Konfigurator</title></svelte:head>
 
 <svelte:window onpointermove={(e) => { mx = (e.clientX / innerWidth) * 100; my = (e.clientY / innerHeight) * 100; }} />
 
@@ -71,9 +71,9 @@
 {#if done}
 	<header class="top in">
 		<div class="brand">
-			<span class="mono">Liuteria Shkodra — Est. 2026</span>
+			<span class="mono">Liuteria Shkodra · Est. 2026</span>
 			<h1><em>Violino</em> N°1</h1>
-			<p class="mono dim">Fichte · Riegelahorn · Ebenholz · Pernambuk — 4/4 · 356 mm Korpus</p>
+			<p class="mono dim">Fichte · Riegelahorn · Ebenholz · Pernambuk · 4/4 · 356 mm Korpus</p>
 		</div>
 		<nav class="views mono">
 			{#each views as v, i}

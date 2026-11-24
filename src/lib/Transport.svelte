@@ -40,7 +40,7 @@
 			{/each}
 		</div>
 		<div class="now">
-			<span class="title"><em>{piece.title}</em> <span class="mono dim">— {piece.composer}</span></span>
+			<span class="title"><em>{piece.title}</em> <span class="mono dim">{piece.composer}</span></span>
 			<span class="note">{player.noteName || (player.live ? '' : '♩')}</span>
 		</div>
 		<div class="bar"><canvas bind:this={cv}></canvas><i style="width:{player.progress * 100}%"></i></div>

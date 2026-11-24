@@ -6,7 +6,7 @@
 </script>
 
 <aside class="panel" class:closed={!open}>
-	<button class="tab mono" onclick={() => (open = !open)}>{open ? '— Karte schließen' : '+ Werkstattkarte'}</button>
+	<button class="tab mono" onclick={() => (open = !open)}>{open ? 'Karte schließen' : '+ Werkstattkarte'}</button>
 	<div class="card">
 		<div class="head mono"><span>Werkstattkarte</span><span>Nº 0001</span></div>
 

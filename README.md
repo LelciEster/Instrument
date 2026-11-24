@@ -1,4 +1,4 @@
-# Violino N°1 – 3D-Konfigurator (ITP-Projekt)
+# Violino N°1 · 3D-Konfigurator (ITP-Projekt)
 
 Online-Produktkonfigurator für eine Violine mit Bogen. Gebaut mit **SvelteKit**, **Threlte** und **Three.js**. Das Modell kommt aus Blender (`static/violin.glb`).
 
